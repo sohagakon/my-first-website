@@ -5,10 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input:focus{
+            color: blues;
+
+        }
+        li:nth-child(2n){
+            color: brown;
+            background-color: burlywood;
+        }
+        li:hover{
+          
+        }
+        li:active{
+            color: darkblue;
+        }
+        h1::before{
+            content: "Hello ";
+            color: darkblue;
+            background-color: darkgrey;
+            font-weight: 10px;
+            font-size: 50px;
+        }
+        .design::after{
+            content: " good bye";
+            font-size: 12px;
+            background-color: darkgrey;
+
+        }
+      p::before{
+          content: " 💓 ";
+      }
+      div{
+        width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+      }
+    </style>
 </head>
 <body>
-    <h1>My first ever website</h1>
+    <h1 class="design">My first ever website</h1>
     <h3>Look mama I can push to github</h3>
     <h1>This Is Saiful Islam Sohag</h1>
+    <input type="text" name="Email" id="Email">
+    <br>
+    <input type="password" name="Password" id="#">
+    <ul>
+        <p>Home</p>
+        <p>About</p>
+        <p>Contact</p>
+        <p>Help</p>
+        <p>Video</p>
+        <p>Gallery</p>
+    </ul>
+    <div class="Header">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil minima architecto recusandae, maiores pariatur blanditiis, saepe placeat magni asperiores veritatis provident ipsa dicta doloremque voluptates quaerat error unde consequatur illo?</p>
+    </div>
+    <h1>Our Farst website</h1>
 </body>
 </html>
